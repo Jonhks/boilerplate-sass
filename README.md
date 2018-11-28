@@ -1,2 +1,2 @@
 # boilerplate-sass
-Esto es lo que usaremos para el taller de 
+Esto es lo que usaremos para el taller de Sass
