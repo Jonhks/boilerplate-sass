@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@media only screen and (max-width: 500px) {
+  body {
+    background-color: black;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+header {
+  margin-bottom: 1.5em;
+}
+header nav a {
+  padding: 1em;
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #0074D9;
+  display: inline-block;
+  margin-right: 1em;
+  border-radius: 5px;
+}
+header nav a:hover {
+  background-color: #FF851B;
+  text-decoration: none;
+}
+
+.contenedor {
+  width: 90%;
+  max-width: 900px;
+  margin: 2em auto;
+}
+
+.article-main, .extens-dos, .extens {
+  padding: 1.5em;
+  background-color: #2ECC40;
+  margin-bottom: 1.5em;
+  box-shadow: 5px 5px 2px black;
+  font-family: "Quicksand", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.article-main h2, .extens-dos h2, .extens h2 {
+  color: #0074D9;
+}
+
+.extens {
+  background-color: #B10DC9;
+  font-family: "Courier New", monospace;
+  font-size: 24px;
+}
+
+.extens-dos {
+  background-color: #dbd879;
+}
+@media only screen and (max-width: 800px) {
+  .extens-dos {
+    display: none;
+  }
+}
+.extens-dos:hover {
+  background-color: #737373;
+}
+.extens-dos h2:hover {
+  font-size: 2.6em;
+}
+
+/*# sourceMappingURL=style.css.map */
